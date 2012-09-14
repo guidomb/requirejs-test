@@ -1,0 +1,1 @@
+require(["Baz"],function(e){var t=new e("Guido");t.greet()});
