@@ -1,7 +1,7 @@
-define('Baz', ['Bar'], function(Bar){
+define('Foo', ['Baz'], function(Baz){
 	
 	Foo = function(message) {
-		this.bar = new Bar('GATO: ' + message);
+		this.bar = new Baz('GATO: ' + message);
 	}
 	Foo.prototype.greet = function() {
 		this.bar.greet();

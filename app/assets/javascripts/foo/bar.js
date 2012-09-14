@@ -1,4 +1,4 @@
-define('Bar', function() {
+define('Bar', ['Foo'], function(Foo) {
 
 	var Bar = function(message) {
 		this.message = message
@@ -6,6 +6,7 @@ define('Bar', function() {
 	Bar.prototype.greet = function() {
 		alert(this.message);
 	}
+	(new Foo('CIrCULAR')).greet();
 
 	return Bar;
 
