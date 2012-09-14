@@ -1,3 +1,4 @@
 paths:
   Baz: 'foo/baz'
   Bar: 'foo/bar'
+  Foo: 'foo/foo'
